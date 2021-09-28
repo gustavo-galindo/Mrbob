@@ -55,6 +55,11 @@ header .container a
     font-size: 20px;
     font-weight: bold;
 }
+.seccion 
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .container
 {
     width: 1140px;
@@ -90,4 +95,14 @@ header .container a
     color: white;
     font-size: 16px;
 }
- 
+#nosotros
+{
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+}
+#nosotros p
+{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
