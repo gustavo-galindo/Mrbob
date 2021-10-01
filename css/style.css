@@ -88,6 +88,13 @@ header .container nav a
     padding-right: 15px;
     padding-left: 15px;
 }
+.container-fluid
+{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .row
 {
  display: flex;
@@ -170,4 +177,40 @@ header .container nav a
     color:white
     margin-top: 0;
     font-size: 25px;
+}
+#galeria h4
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color:orange;
+    font-size: 30px;
+    width: 100%;
+}
+#galeria img
+{
+    filter: grayscale(1);
+}
+#galeria .cuadrado-perfecto:hover img
+{
+    filter: grayscale(0);
+}
+#galeria .cuadrado-perfecto:hover h4
+{
+    display: none;
+}
+#contactenos 
+{
+    position: relative;
+}
+#contactenos iframe
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
 }
