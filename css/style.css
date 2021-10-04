@@ -40,6 +40,11 @@ header .container nav a
     text-decoration:none;
     margin: 0 15px;
 }
+header .container .hamb
+{
+    display: none;
+    position: relative;
+}
 footer
 {
     background-color: black;
@@ -64,6 +69,7 @@ footer ul
 {
     padding-left: 0;
     list-style: none;
+    margin: 0;
 }
 footer ul li
 {
@@ -265,7 +271,7 @@ footer p
 }
 #servicios .bloque-servicio .bloque-contenido-servicio h3
 {
-    color:white
+    color:white;
     margin-top: 0;
     font-size: 25px;
 }
@@ -336,4 +342,101 @@ footer p
 #contactenos form .form-block.bloque-ultimo
 {
     margin-bottom: 0;
+}
+@media(max-width: 767px)
+{
+    body
+    {
+        font-size: 15px
+    }
+    
+    header .container nav
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        padding-left: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition:all 0.4s ease;
+        transform: translateX(100%);
+    }
+    header .container nav a
+    {
+        font-size:30px;
+        margin: 15px 0;
+    }
+    header .container .hamb
+    {
+        display: block;
+        font-size: 40px;
+        color: orange;
+    } 
+    form .boton.boton-negro
+    {
+        width: 100%;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    footer .logo-footer
+    {
+        width: 50%;
+    }
+    footer .redes
+    {
+        justify-content: center;
+    }
+    .container 
+    {
+        width: 100%;
+    }
+    .colummna-mobible-100
+    {
+        width: 100%;
+    }
+    .colummna-mobible-50
+    {
+        width: 50%;
+    }
+    .empujar-mobible-0
+    {
+        margin: 0;
+    }
+    .sinpadding-mobible
+    {
+        padding: 0;
+    }
+    #inicio
+    {
+        height: 100vh;
+    }
+    #inicio img
+    {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    #servicios .bloque-servicio
+    {
+        margin-bottom: 15px;
+    }
+    #contactenos
+    {
+        padding: 0;
+    }
+    #contactenos iframe
+    {
+        position:relative;
+        height: 50vh;
+
+    }
+
 }
