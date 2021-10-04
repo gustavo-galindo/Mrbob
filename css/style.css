@@ -10,6 +10,7 @@ body
 a
 {
     display: inline-block;
+    text-decoration: none;
 }
  
 
@@ -39,6 +40,54 @@ header .container nav a
     text-decoration:none;
     margin: 0 15px;
 }
+footer
+{
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+footer .barra-footer
+{
+    background-color: gray;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+footer .logo-footer
+{
+    width: 100%;
+    
+}
+footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+footer ul li
+{
+ margin-bottom: 10px;
+}
+footer p
+ {
+     color: white;
+     margin-bottom: 30px;
+ }
+ footer a
+ {
+     color:white;
+     
+ }
+ footer .redes
+ {
+     font-size: 30px;
+     display: flex;
+ }
+ footer .redes a
+ {
+     margin: 0 7.5px;
+ }
 .boton
 {
     text-align: center;
@@ -124,6 +173,10 @@ header .container nav a
     padding-right: 15px;
     padding-left: 15px;
 
+}
+.columna-25
+{
+    width: 25%;
 }
 .columna-33
 {
